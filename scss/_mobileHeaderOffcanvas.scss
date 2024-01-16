@@ -1,0 +1,71 @@
+.offcanvas-start {
+    width: 320px;
+}
+.mobile-header-offcanvas{
+    background: linear-gradient(180deg,#fff,#f1f0f3,#e1defb,#e1dffc,#c3c6f3);
+    .offcanvas-header{
+        position: relative;
+      .logo{
+         img{
+            max-height: 38px;
+            width: auto;
+            object-fit: contain;
+         }
+      }
+      .btn-close{
+        position: absolute; 
+        right: 20px;
+        top: 20px;
+      }
+    }
+    .offcanvas-body{
+        .nav-wrapper{
+            ul{
+                li{
+                    margin-top: 25px;
+                    a{
+                        font-size: 18px;
+                        font-weight: 500;
+                        position: relative;
+                        color: $blackColor;
+                        &:hover{
+                            color: $primaryColor;
+                        }
+                    }
+                }
+            }
+            .course_btn{
+                padding: 10px 25px;
+                background-color: $primaryColor;
+                border-radius: 10px;
+                color: $whiteColor;
+                font-size: 19px;
+                font-weight: 500;
+                line-height: 26px;
+                display: inline-block;
+                margin-top: 25px;
+                &:hover{
+                    background-color: $hoverPrimary;
+                }
+                i{
+                    margin: 0 3px;
+                }
+                .fa-book-open{
+                    font-size: 17px;
+                }
+            }
+            .free-seminar{
+                background-color: $whiteColor;
+                color: $primaryColor;
+                font-size: 17px;
+                border: 2px solid $primaryColor;
+                line-height: 26px;
+                padding: 9px 25px;
+                &:hover{
+                    background-color: $hoverPrimary;
+                    color: $whiteColor;
+                }
+            }
+        }
+    }
+}
